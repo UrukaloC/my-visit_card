@@ -803,7 +803,7 @@ li>ol {
     position: absolute;
     z-index: 200;
     width: 100%;
-    top: 50%;
+    top: 53%;
     transform: translate(0, -50%)
 }
 
