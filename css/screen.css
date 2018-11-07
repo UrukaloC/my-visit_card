@@ -866,7 +866,19 @@ li>ol {
 
 .contact__list-link {
     display: inline-block;
-    margin: 0 10px
+    margin: 0 15px
+}
+
+.far.fa-envelope {
+    padding-right: 4px;
+}
+
+.fab.fa-skype {
+    padding-right: 4px;
+}
+
+.fab.fa-github {
+    padding-right: 4px;
 }
 
 .skills__interested-in {
@@ -1173,7 +1185,8 @@ li>ol {
 
 .ph-- {
     padding-right: 6px !important;
-    padding-left: 6px !important
+    padding-left: 6px !important;
+    text-align: center;
 }
 
 .pv-- {
