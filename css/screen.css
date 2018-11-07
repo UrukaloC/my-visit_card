@@ -540,7 +540,7 @@ li>ol {
     font-size: 16px;
     font-size: 1rem;
     display: inline-block;
-    text-align: left;
+    /* text-align: left; */
     vertical-align: middle
 }
 
@@ -869,15 +869,11 @@ li>ol {
     margin: 0 15px
 }
 
-.far.fa-envelope {
+.far {
     padding-right: 4px;
 }
 
-.fab.fa-skype {
-    padding-right: 4px;
-}
-
-.fab.fa-github {
+.fab {
     padding-right: 4px;
 }
 
@@ -886,7 +882,8 @@ li>ol {
 }
 
 .footer__copy-text {
-    font-size: 12px
+    font-size: 12px;
+    text-align: center;
 }
 
 .footer {
