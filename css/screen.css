@@ -24,6 +24,13 @@
     width: device-width
 }
 
+@font-face {
+    font-family: 'dk_cinnabar_brushregular';
+    src: url('../fonts/dk_cinnabar_brush-webfont.woff2') format('woff2'), url('../fonts/dk_cinnabar_brush-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
@@ -809,11 +816,17 @@ li>ol {
 
 .hero-section__title {
     text-align: center;
-    font-size: 52px
+    font-size: 8vh;
+    font-family: 'dk_cinnabar_brushregular';
 }
 
+
+/* .hero-section__title.mb {
+} */
+
 .hero-section__subtitle {
-    font-size: 22px
+    font-size: 4vh;
+    font-family: 'dk_cinnabar_brushregular';
 }
 
 @media screen and (max-width: 480px) {
